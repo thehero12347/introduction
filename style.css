@@ -42,7 +42,15 @@ header * {
     height: 30px;
     cursor: pointer;
   }
+
+.github {
+      padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    height: 30px;
+    cursor: pointer;
   
+}
 
 
 
