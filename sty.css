@@ -1,10 +1,11 @@
+
 body {
-    background-image: url("unknown (5).png");
+    background-image: url("https://cdn.discordapp.com/attachments/980754440946593813/988076457274257448/unknown.png"); 
     height: 125vh;  
     margin-top: 80px;  
     padding: 30px;  
     background-size: cover;  
-    font-family: sans-serif;  
+    font-family: sans-serif; 
   }
   
 
@@ -14,7 +15,7 @@ header {
     left: 0;  
     right: 0;  
     top: 5px;  
-    height: 30px;  
+    height: 45px;  /*<= this one*/
     display: flex;  
     align-items: center;  
     box-shadow: 0 0 20px 0 black;  
@@ -30,40 +31,70 @@ header * {
       header li a {  
       color: blue;  
       text-decoration: none;  
-      }  
-
+      } 
 
 
 
 .discord {
-    padding: 15px 32px;
-    display: inline-block;
-    margin: 4px 2px;
-    height: 30px;
-    cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;  
+  display: inline-block;
+  margin: 4px 2px; 
   }
 
 .github {
-      padding: 15px 32px;
+    padding: 30px 32px;
+    position: fixed;
+    bottom: 0;
+    right: 1px;
+    left : 1px; 
+    width: 60px;
     display: inline-block;
-    margin: 4px 2px;
-    height: 30px;
+    margin: 4px 3px;
     cursor: pointer;
-  
 }
 
 
+div.absolute {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  border: 3px solid #e01b24;
+}
 
 
 h1 {
     color: #1c71d8;
     text-align: center;
   }
-  
+
+h3 {
+  color: #ff3333;
+  text-align: left;
+}
+
+
 p {
     font-family: verdana;
     font-size: 20px;
     text-align: center;
-    color: #d92626;
+    color: #cc66ff;
   }
 
+.aboutus {
+  width: 45px;
+  height: 43px;
+  top: 5px; 
+}
+
+.home {
+  width: 60px;
+  height: 60px;
+}
+
+.aboutme {
+  font-family: cursive;
+ color: #d33cb7;
+}

@@ -1,5 +1,6 @@
+
 body {
-    background-image: url("unknown.png");
+    background-image: url("home.png");
     height: 125vh;  
     margin-top: 80px;  
     padding: 30px;  
@@ -14,7 +15,7 @@ header {
     left: 0;  
     right: 0;  
     top: 5px;  
-    height: 30px;  
+    height: 45px;  /*<= this one*/
     display: flex;  
     align-items: center;  
     box-shadow: 0 0 20px 0 black;  
@@ -30,29 +31,38 @@ header * {
       header li a {  
       color: blue;  
       text-decoration: none;  
-      }  
-
+      } 
 
 
 
 .discord {
-    padding: 15px 32px;
-    display: inline-block;
-    margin: 4px 2px;
-    height: 30px;
-    cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;  
+  display: inline-block;
+  margin: 4px 2px; 
   }
 
 .github {
-      padding: 15px 32px;
+    padding: 30px 32px;
+    position: fixed;
+    bottom: 0;
+    right: 1px;
+    left : 1px; 
+    width: 60px;
     display: inline-block;
-    margin: 4px 2px;
-    height: 30px;
+    margin: 4px 3px;
     cursor: pointer;
-  
 }
 
 
+div.absolute {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  border: 3px solid #e01b24;
+}
 
 
 h1 {
@@ -67,3 +77,13 @@ p {
     color: #d92626;
   }
 
+.aboutus {
+  width: 45px;
+  height: 43px;
+  top: 5px; 
+}
+
+.home {
+  width: 60px;
+  height: 60px;
+}

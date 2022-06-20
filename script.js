@@ -5,3 +5,11 @@ document.getElementById("discordJoin").onclick = function (discord) {
 document.getElementById("github").onclick = function (github) {
 location.href = "https://github.com/thehero12347";
 };
+
+document.getElementById("home").onclick = function (home) {
+  location.href = "index.html";
+};
+
+document.getElementById("aboutus").onclick = function (aboutus) {
+  location.href = "aboutus.html";
+};
